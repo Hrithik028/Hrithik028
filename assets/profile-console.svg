@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1120" viewBox="0 0 1100 1120" role="img" aria-labelledby="title desc">
+  <title id="title">Hrithik's Data Forge profile console</title><desc id="desc">A navy, blue, gold, and crimson profile panel describing Hrithik, featured projects, technical disciplines, working principles, and objectives.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07152d"/><stop offset="1" stop-color="#02050b"/></linearGradient><linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a1b38"/><stop offset="1" stop-color="#030812"/></linearGradient></defs>
+  <rect x="1" y="1" width="1098" height="1118" rx="16" fill="url(#bg)" stroke="#d7b35c" stroke-opacity=".6" stroke-width="2"/>
+  <g font-family="Consolas, monospace">
+    <text x="40" y="58" fill="#d7b35c" font-size="21" font-weight="700" letter-spacing="3">DOSSIER // WHO I AM</text><path d="M40 77H1060" stroke="#d7b35c" stroke-opacity=".55"/>
+    <text x="40" y="116" fill="#f4ead5" font-size="17">I’m Hrithik — a data-focused builder working across analytics, software, and practical automation.</text>
+    <text x="40" y="149" fill="#b8c6dd" font-size="16">I turn messy data and business questions into clear insights, useful dashboards, and maintainable products.</text>
+    <text x="40" y="178" fill="#8eb8ff" font-size="16">DATA ANALYST  ·  ANALYTICS ENGINEER  ·  FULL-STACK DEVELOPER</text>
+    <rect x="40" y="207" width="1020" height="125" rx="8" fill="#02050b" stroke="#234d99"/><path d="M40 207v125" stroke="#d7b35c" stroke-width="5"/>
+    <text x="68" y="245" fill="#d7b35c" font-size="14" letter-spacing="2">PRIMARY DIRECTIVE</text><text x="270" y="245" fill="#f4ead5" font-size="15">Build useful things that explain themselves</text>
+    <text x="68" y="281" fill="#d7b35c" font-size="14" letter-spacing="2">CURRENT CAMPAIGN</text><text x="270" y="281" fill="#f4ead5" font-size="15">SQL · Python · data products · React · APIs · PostgreSQL</text>
+    <text x="68" y="317" fill="#d7b35c" font-size="14" letter-spacing="2">WORKING PRINCIPLE</text><text x="270" y="317" fill="#f4ead5" font-size="15">Validate the data before trusting the conclusion</text>
+
+    <text x="40" y="392" fill="#d7b35c" font-size="21" font-weight="700" letter-spacing="3">ACTIVE CAMPAIGNS</text><path d="M40 411H1060" stroke="#d7b35c" stroke-opacity=".55"/>
+    <g transform="translate(40 438)"><rect width="320" height="222" rx="9" fill="url(#card)" stroke="#3976d6" stroke-width="2"/><text x="22" y="39" fill="#8eb8ff" font-size="18" font-weight="700">WORKFLOWHQ</text><text x="22" y="72" fill="#d7b35c" font-size="12" letter-spacing="1">OPERATIONS PLATFORM</text><text x="22" y="112" fill="#b8c6dd" font-size="14">A full-stack task workflow system</text><text x="22" y="138" fill="#b8c6dd" font-size="14">built with React, Express,</text><text x="22" y="164" fill="#b8c6dd" font-size="14">PostgreSQL, and REST APIs.</text><path d="M22 190h276" stroke="#3976d6" stroke-opacity=".6"/></g>
+    <g transform="translate(390 438)"><rect width="320" height="222" rx="9" fill="url(#card)" stroke="#3976d6" stroke-width="2"/><text x="22" y="39" fill="#8eb8ff" font-size="18" font-weight="700">BREAKING GAMES</text><text x="22" y="72" fill="#d7b35c" font-size="12" letter-spacing="1">ANALYTICS CAMPAIGN</text><text x="22" y="112" fill="#b8c6dd" font-size="14">SQL and Python analysis across</text><text x="22" y="138" fill="#b8c6dd" font-size="14">marketing, Shopify, product</text><text x="22" y="164" fill="#b8c6dd" font-size="14">performance, and customers.</text><path d="M22 190h276" stroke="#d7b35c" stroke-opacity=".6"/></g>
+    <g transform="translate(740 438)"><rect width="320" height="222" rx="9" fill="url(#card)" stroke="#3976d6" stroke-width="2"/><text x="22" y="39" fill="#8eb8ff" font-size="18" font-weight="700">ENGINEERING OS</text><text x="22" y="72" fill="#d7b35c" font-size="12" letter-spacing="1">PROFILE SYSTEM</text><text x="22" y="112" fill="#b8c6dd" font-size="14">A living technical profile for</text><text x="22" y="138" fill="#b8c6dd" font-size="14">projects, contribution activity,</text><text x="22" y="164" fill="#b8c6dd" font-size="14">and technical growth.</text><path d="M22 190h276" stroke="#8b1e2d" stroke-opacity=".8"/></g>
+
+    <text x="40" y="724" fill="#d7b35c" font-size="21" font-weight="700" letter-spacing="3">THE ARMOURY</text><path d="M40 743H1060" stroke="#d7b35c" stroke-opacity=".55"/>
+    <rect x="40" y="770" width="1020" height="202" rx="7" fill="#02050b" stroke="#234d99"/><rect x="40" y="770" width="1020" height="42" rx="7" fill="#0a1b38"/>
+    <path d="M315 770v202M40 812h1020M40 852h1020M40 892h1020M40 932h1020" stroke="#b8c6dd" stroke-opacity=".2"/>
+    <text x="60" y="798" fill="#d7b35c" font-size="14" font-weight="700">DISCIPLINE</text><text x="340" y="798" fill="#d7b35c" font-size="14" font-weight="700">FOCUS</text>
+    <text x="60" y="838" fill="#f4ead5" font-size="14">Analytics</text><text x="340" y="838" fill="#b8c6dd" font-size="14">SQL · Python · Pandas · Excel · KPI analysis · data cleaning</text>
+    <text x="60" y="878" fill="#f4ead5" font-size="14">Data systems</text><text x="340" y="878" fill="#b8c6dd" font-size="14">SQLite · PostgreSQL · relational modelling · validation</text>
+    <text x="60" y="918" fill="#f4ead5" font-size="14">Product engineering</text><text x="340" y="918" fill="#b8c6dd" font-size="14">JavaScript · React · Node.js · Express · REST APIs</text>
+    <text x="60" y="958" fill="#f4ead5" font-size="14">Delivery</text><text x="340" y="958" fill="#b8c6dd" font-size="14">Git · GitHub Actions · Vite · PowerShell · documentation</text>
+
+    <text x="40" y="1023" fill="#d7b35c" font-size="18" font-weight="700" letter-spacing="2">OPERATING DOCTRINE</text>
+    <text x="40" y="1057" fill="#b8c6dd" font-size="14">◆ Start with the question, not the tool.   ◆ Inspect keys before aggregating.   ◆ Treat data quality as analysis.</text>
+    <text x="40" y="1088" fill="#8eb8ff" font-size="14">OBJECTIVE // BUILD CLEARER DATA PRODUCTS, STRONGER SYSTEMS, AND FINISHED CORE EXPERIENCES.</text>
+  </g>
+</svg>
