@@ -142,8 +142,8 @@ def render_svg(stats: dict, languages: list[tuple[str, int]], stamp: str) -> str
 def update_readme(display_date: str) -> None:
     content = README_PATH.read_text(encoding="utf-8")
     updated, replacements = re.subn(
-        r"> Snapshot generated from public GitHub data on \*\*[^*]+\*\*\.",
-        f"> Snapshot generated from public GitHub data on **{display_date}**.",
+        r"(> Snapshot generated from public GitHub data on \*\*)[^*]+(\*\*)",
+        rf"\g<1>{display_date}\g<2>",
         content,
         count=1,
     )
