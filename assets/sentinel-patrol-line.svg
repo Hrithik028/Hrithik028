@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="title desc">
+  <title id="title">The Data Forge travelling sword duel</title>
+  <desc id="desc">A blue armored marine and a green ork exchange synchronized sword strikes while their duel moves smoothly back and forth along a glowing line.</desc>
+  <defs>
+    <linearGradient id="track" x1="0" x2="1">
+      <stop offset="0" stop-color="#d7b35c" stop-opacity="0"/>
+      <stop offset=".1" stop-color="#d7b35c"/>
+      <stop offset=".5" stop-color="#8eb8ff"/>
+      <stop offset=".9" stop-color="#d7b35c"/>
+      <stop offset="1" stop-color="#d7b35c" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b94f2"/>
+      <stop offset=".45" stop-color="#164ba8"/>
+      <stop offset="1" stop-color="#071b48"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff1a8"/>
+      <stop offset=".48" stop-color="#d7b35c"/>
+      <stop offset="1" stop-color="#72501f"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a8c957"/>
+      <stop offset=".52" stop-color="#557a26"/>
+      <stop offset="1" stop-color="#263d13"/>
+    </linearGradient>
+    <linearGradient id="scrap" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b969e"/>
+      <stop offset=".5" stop-color="#3b4248"/>
+      <stop offset="1" stop-color="#15191d"/>
+    </linearGradient>
+    <linearGradient id="powerBlade" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#3976d6"/>
+      <stop offset=".45" stop-color="#dff5ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <filter id="softGlow" x="-100%" y="-400%" width="300%" height="900%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="impactGlow" x="-250%" y="-250%" width="600%" height="600%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .shuttle { animation: travel 14s cubic-bezier(.45,0,.55,1) infinite alternate; }
+      .marine-footwork { animation: marine-footwork 1.2s ease-in-out infinite; }
+      .ork-footwork { animation: ork-footwork 1.2s ease-in-out infinite; }
+      .marine-sword { transform-box: fill-box; transform-origin: 0% 100%; animation: marine-strike 1.2s cubic-bezier(.4,0,.2,1) infinite; }
+      .ork-sword { transform-box: fill-box; transform-origin: 100% 100%; animation: ork-strike 1.2s cubic-bezier(.4,0,.2,1) infinite; }
+      .marine-guard { transform-box: fill-box; transform-origin: 100% 30%; animation: marine-guard 1.2s ease-in-out infinite; }
+      .ork-guard { transform-box: fill-box; transform-origin: 0% 30%; animation: ork-guard 1.2s ease-in-out infinite; }
+      .impact, .spark { transform-box: fill-box; transform-origin: center; animation: impact 1.2s ease-out infinite; }
+
+      @keyframes travel {
+        from { transform: translateX(18px); }
+        to { transform: translateX(958px); }
+      }
+      @keyframes marine-footwork {
+        0%,100% { transform: translate(-1px,1px) rotate(-1deg); }
+        34%,48% { transform: translate(4px,-1px) rotate(2deg); }
+        62% { transform: translate(0,1px) rotate(-1deg); }
+      }
+      @keyframes ork-footwork {
+        0%,100% { transform: translate(1px,1px) rotate(1deg); }
+        34%,48% { transform: translate(-4px,-1px) rotate(-2deg); }
+        62% { transform: translate(0,1px) rotate(1deg); }
+      }
+      @keyframes marine-strike {
+        0%,14% { transform: rotate(-28deg); }
+        35%,47% { transform: rotate(0deg); }
+        58% { transform: rotate(-8deg); }
+        76%,100% { transform: rotate(-28deg); }
+      }
+      @keyframes ork-strike {
+        0%,14% { transform: rotate(28deg); }
+        35%,47% { transform: rotate(0deg); }
+        58% { transform: rotate(8deg); }
+        76%,100% { transform: rotate(28deg); }
+      }
+      @keyframes marine-guard { 0%,100% { transform: rotate(5deg); } 38%,50% { transform: rotate(-9deg); } }
+      @keyframes ork-guard { 0%,100% { transform: rotate(-5deg); } 38%,50% { transform: rotate(9deg); } }
+      @keyframes impact {
+        0%,33% { opacity: 0; transform: scale(.25) rotate(0deg); }
+        39% { opacity: 1; transform: scale(1.2) rotate(15deg); }
+        56%,100% { opacity: 0; transform: scale(.45) rotate(42deg); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .shuttle, .marine-footwork, .ork-footwork, .marine-sword, .ork-sword, .marine-guard, .ork-guard, .impact, .spark { animation: none !important; }
+        .shuttle { transform: translateX(488px); }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="150" fill="#02050b" fill-opacity="0"/>
+  <rect x="36" y="119" width="1128" height="2" rx="1" fill="url(#track)" filter="url(#softGlow)"/>
+  <path d="M60 108v24m1080-24v24" stroke="#d7b35c" stroke-width="2" opacity=".6"/>
+  <path d="M81 115h43v10H81l10-5zm1038 0h-43v10h43l-10-5z" fill="#d7b35c" opacity=".5"/>
+
+  <g class="shuttle">
+    <ellipse cx="111" cy="122" rx="108" ry="7" fill="#000" opacity=".55"/>
+
+    <!-- Marine body; all weapon motion is isolated at the hand pivot -->
+    <g transform="translate(55 15)">
+      <g class="marine-footwork" stroke="#02050b" stroke-width="2.4" stroke-linejoin="round">
+        <path d="M-13 67L2 68 0 96-19 96Z" fill="url(#blue)"/>
+        <path d="M-20 92H1L6 105H-25Z" fill="#071b48"/>
+        <path d="M10 68L25 65 31 94 13 97Z" fill="url(#blue)"/>
+        <path d="M13 92H32L38 105H8Z" fill="#071b48"/>
+        <path d="M-25 31L4 19 33 32 29 72 5 82-21 72Z" fill="url(#blue)"/>
+        <path d="M-14 38H21L17 62 4 70-10 62Z" fill="#06132d" stroke="url(#gold)"/>
+        <path d="M-5 41v14q9 9 18 0V41" fill="none" stroke="#d7b35c" stroke-width="3.4"/>
+        <path d="M-22 29L-39 27-50 37-30 46-15 40ZM30 29L46 29 55 40 35 47 20 40Z" fill="url(#blue)"/>
+        <path d="M-38 30L-46 36-34 40-25 35ZM45 31L52 38 39 41 31 36Z" fill="url(#gold)"/>
+        <path d="M-15 5L2 0 19 6 22 26 12 34H-10L-20 26Z" fill="url(#blue)"/>
+        <path d="M-13 15L-6 11H9L16 15 12 24 2 29-10 24Z" fill="#020711"/>
+        <path d="M-10 17L-1 18-5 22-12 20ZM13 17L4 18 8 22 15 20Z" fill="#ef3340" stroke="none" filter="url(#impactGlow)"/>
+        <path d="M2 0v-7" stroke="#d7b35c"/>
+        <path d="M-22 43L-38 51-43 78-30 83-12 54Z" fill="url(#blue)"/>
+      </g>
+
+      <g transform="translate(39 62)">
+        <g class="marine-sword" stroke-linejoin="round">
+          <path d="M-4 4L5-4 12 3 3 11Z" fill="#0a245d" stroke="#02050b" stroke-width="2"/>
+          <path d="M1-2L8 5" stroke="#d7b35c" stroke-width="4"/>
+          <path d="M5 0L51-42 58-46 54-38 10 7Z" fill="url(#powerBlade)" stroke="#8eb8ff" stroke-width="2" filter="url(#softGlow)"/>
+          <path d="M13-4L50-38" stroke="#ffffff" stroke-width="1.3" opacity=".9"/>
+        </g>
+      </g>
+      <g class="marine-guard" stroke="#02050b" stroke-width="2.3" stroke-linejoin="round">
+        <path d="M28 40L42 45 50 67 39 72 19 51Z" fill="url(#blue)"/>
+        <path d="M40 65L50 62 57 73 46 78Z" fill="#0a245d"/>
+      </g>
+    </g>
+
+    <!-- Ork body with a heavy scrap-metal sword -->
+    <g transform="translate(170 20)">
+      <g class="ork-footwork" stroke="#090b08" stroke-width="2.4" stroke-linejoin="round">
+        <path d="M-23 62L-8 64-11 91-29 91Z" fill="#3b4a22"/>
+        <path d="M-30 87L-9 88-5 100H-35Z" fill="#211b13"/>
+        <path d="M4 64L19 61 25 89 8 93Z" fill="#3b4a22"/>
+        <path d="M8 88L26 86 32 98H3Z" fill="#211b13"/>
+        <path d="M-29 29L-3 20 27 30 31 67 3 79-26 68Z" fill="url(#scrap)"/>
+        <path d="M-18 38L4 31 23 40 20 63-1 71-20 60Z" fill="#67281f"/>
+        <path d="M-35 28L-18 24-8 36-26 46-44 40ZM25 29L42 31 49 42 31 47 15 38Z" fill="url(#scrap)"/>
+        <path d="M-17 8L-2 1 15 8 21 24 9 35-12 31-23 20Z" fill="url(#green)"/>
+        <path d="M-15 18L-7 15-2 19-10 23ZM13 17L5 16 2 21 11 22Z" fill="#f2b632" stroke="none" filter="url(#impactGlow)"/>
+        <path d="M-13 25L9 25 2 34-10 31Z" fill="#19110c"/>
+        <path d="M-8 26L-5 33M3 26L1 33" stroke="#e7d6ac" stroke-width="2.3"/>
+        <path d="M7 6L13-5 16 9M-13 9L-20-2-17 13" fill="url(#green)"/>
+        <path d="M25 42L42 50 47 76 35 82 15 54Z" fill="url(#green)"/>
+        <path d="M34 46L47 52 49 67 37 64Z" fill="url(#scrap)"/>
+      </g>
+
+      <g transform="translate(-41 59)">
+        <g class="ork-sword" stroke-linejoin="round">
+          <path d="M-5-3L4 5-3 13-12 5Z" fill="#46261b" stroke="#090b08" stroke-width="2"/>
+          <path d="M-10 1L-3 8" stroke="#a51e2e" stroke-width="4"/>
+          <path d="M-7 2L-52-38-60-43-55-33-13 10Z" fill="url(#scrap)" stroke="#e05a38" stroke-width="2.4" filter="url(#softGlow)"/>
+          <path d="M-16-2L-52-35" fill="none" stroke="#ffb15c" stroke-width="1.5" opacity=".95"/>
+          <path d="M-20-4L-49-31-43-25-28-20Z" fill="#a51e2e" opacity=".8"/>
+          <path d="M-52-38L-64-33-58-45Z" fill="#b9c0c5" stroke="#171a1d" stroke-width="2"/>
+        </g>
+      </g>
+      <g class="ork-guard" stroke="#090b08" stroke-width="2.3" stroke-linejoin="round">
+        <path d="M-28 39L-43 46-52 68-41 74-18 51Z" fill="url(#green)"/>
+        <path d="M-45 65L-55 61-62 72-51 78Z" fill="url(#scrap)"/>
+      </g>
+    </g>
+
+    <!-- Precisely timed contact point -->
+    <g transform="translate(108 68)">
+      <circle class="impact" r="13" fill="none" stroke="#fff0a3" stroke-width="2"/>
+      <g class="spark" fill="#ffe07a" filter="url(#impactGlow)">
+        <path d="M0-4L3-18 6-5 16-12 8-1 20 3 7 5 12 16 2 8-3 20-5 7-17 14-9 3-21 0-7-3-13-14-2-8Z"/>
+        <circle cx="-18" cy="-11" r="2"/><circle cx="19" cy="-8" r="1.8"/><circle cx="16" cy="14" r="1.6"/>
+      </g>
+    </g>
+  </g>
+</svg>

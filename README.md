@@ -1,17 +1,129 @@
-# 💫 About Me:
-🔭 I’m currently working on<br>- Data analysis projects using Python, Pandas, and SQL<br>- Software projects focused on clean architecture and APIs<br>- Applying ML models to real-world datasets<br><br>👯 I’m looking to collaborate on<br>- Data analysis or visualization projects<br>- Backend or data-focused software applications<br>- Open-source projects involving Python or data pipelines<br><br>🤝 I’m looking for help with<br>- Improving production-level software design<br>- Optimizing data pipelines and model performance<br>- Best practices for deploying data-driven applications<br><br>🌱 I’m currently learning<br>- Advanced SQL and data modeling<br>- Machine learning model evaluation and feature engineering<br>- Software system design and scalability<br><br>💬 Ask me about<br>- Python for data analysis and automation<br>- Exploratory Data Analysis (EDA)<br>- Building end-to-end data or ML projects<br><br>⚡ Fun fact<br>- Formula 1 sparked my interest in extracting insights from performance and strategy data
+# HRITHIK028 // THE DATA FORGE
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:02050b,52:123e8f,82:d7b35c,100:16090d&height=180&section=header&text=THE%20DATA%20FORGE&fontColor=f4ead5&fontSize=38&fontAlignY=36&desc=Analytics%20%7C%20Engineering%20%7C%20Practical%20Systems&descAlignY=58&descSize=16" alt="The Data Forge banner" />
+</p>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/hrithik-jadhav-a08068199) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:hrithik.jadhav028@gmail.com) 
+<p align="center">
+  <em>“From raw data, useful systems. From complex problems, clear decisions.”</em>
+</p>
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![OpenAPI Specification](https://img.shields.io/badge/openapiinitiative-%23000000.svg?style=for-the-badge&logo=openapiinitiative&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Hrithik028&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Hrithik028&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Hrithik028&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<p align="center">
+  <img src="./assets/data-forge-command-throne.jpeg" width="100%" alt="A blue armored warrior approaching a gothic command throne surrounded by computer terminals" />
+</p>
+
+## DOSSIER // WHO I AM
+
+I’m **Hrithik**, a data-focused builder working across analytics, software, and practical automation.
+
+I turn messy data and business questions into clear insights, useful dashboards, and maintainable software products. My current path sits between **Data Analyst**, **Analytics Engineer**, and **Full-Stack Developer**.
+
+```text
+PRIMARY DIRECTIVE   Build useful things that explain themselves
+CURRENT CAMPAIGN    SQL, Python, data products, React, APIs, PostgreSQL
+WORKING PRINCIPLE   Validate the data before trusting the conclusion
+```
+
+## ACTIVE CAMPAIGNS
+
+### WORKFLOWHQ // OPERATIONS PLATFORM
+
+> A full-stack task workflow system for turning work into visible, manageable progress.
+
+Built with React, Express, PostgreSQL, and REST APIs. The project focuses on practical product structure, reliable backend foundations, and a clean user workflow.
+
+### BREAKING GAMES // ANALYTICS CAMPAIGN
+
+> A marketing and product analytics investigation across advertising, Shopify, and product-performance data.
+
+Uses SQL and Python to examine campaign performance, product behaviour, customer activity, and commercial opportunities. The emphasis is on checking table grain, validating joins, and translating analysis into decisions.
+
+### ENGINEERING OS // PROFILE SYSTEM
+
+> A living technical profile that documents projects, learning, contribution activity, and the systems behind the work.
+
+Designed as a more memorable alternative to a static profile while keeping the important information accessible and easy to scan.
+
+## THE ARMOURY
+
+<p>
+  <img src="https://img.shields.io/badge/SQL-1b2027?style=for-the-badge&logo=sqlite&logoColor=bd8b3e" alt="SQL" />
+  <img src="https://img.shields.io/badge/Python-1b2027?style=for-the-badge&logo=python&logoColor=bd8b3e" alt="Python" />
+  <img src="https://img.shields.io/badge/Pandas-1b2027?style=for-the-badge&logo=pandas&logoColor=bd8b3e" alt="Pandas" />
+  <img src="https://img.shields.io/badge/PostgreSQL-1b2027?style=for-the-badge&logo=postgresql&logoColor=bd8b3e" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/React-1b2027?style=for-the-badge&logo=react&logoColor=bd8b3e" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-1b2027?style=for-the-badge&logo=nodedotjs&logoColor=bd8b3e" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Git-1b2027?style=for-the-badge&logo=git&logoColor=bd8b3e" alt="Git" />
+</p>
+
+| Discipline | Focus |
+| --- | --- |
+| **Analytics** | SQL, Python, Pandas, Excel, KPI analysis, data cleaning |
+| **Data systems** | SQLite, PostgreSQL, relational modelling, validation |
+| **Product engineering** | JavaScript, React, Node.js, Express, REST APIs |
+| **Delivery** | Git, GitHub Actions, Vite, PowerShell, documentation |
+
+## OPERATING DOCTRINE
+
+- Start with the question, not the tool.
+- Inspect the grain and keys before aggregating.
+- Treat data quality as part of the analysis.
+- Build interfaces and explanations for humans.
+- Prefer a useful, finished core over unnecessary complexity.
+
+## CURRENT OBJECTIVES
+
+```text
+[ X ] Strengthen SQL and analytical reasoning
+[ X ] Build portfolio projects with real-world structure
+[ ] Expand data products with clearer visual storytelling
+[ ] Grow deeper into analytics engineering and full-stack systems
+```
+
+<p align="center">
+  <img src="./assets/sentinel-patrol-line.svg" width="100%" alt="A miniature blue and gold sentinel walking along a glowing patrol line" />
+</p>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Hrithik028&icon=0&color=0)](https://visitcount.itsvg.in)
 
+## 🌐 Socials:
+
+<p align="center">
+  <a href="https://github.com/Hrithik028"><img src="https://img.shields.io/badge/GitHub-Hrithik028-07152d?style=for-the-badge&logo=github&logoColor=d7b35c&labelColor=02050b" alt="Hrithik028 on GitHub" /></a>
+  <a href="https://www.linkedin.com/in/hrithik-jadhav-a08068199/"><img src="https://img.shields.io/badge/LinkedIn-Connect-123e8f?style=for-the-badge&logo=linkedin&logoColor=f4ead5&labelColor=02050b" alt="Connect with Hrithik on LinkedIn" /></a>
+  <a href="mailto:hrithik.jadhav028@gmail.com"><img src="https://img.shields.io/badge/Email-Transmit-8b1e2d?style=for-the-badge&logo=gmail&logoColor=f4ead5&labelColor=02050b" alt="Email Hrithik" /></a>
+</p>
+
+## 💻 Tech Stack:
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,postgres,sqlite,js,react,nodejs,express,git,github,vite,powershell&theme=dark&perline=11" alt="Python, PostgreSQL, SQLite, JavaScript, React, Node.js, Express, Git, GitHub, Vite, and PowerShell" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/ANALYTICS-123e8f?style=flat-square&labelColor=02050b&color=123e8f" alt="Analytics" />
+  <img src="https://img.shields.io/badge/DATA%20SYSTEMS-d7b35c?style=flat-square&labelColor=02050b&color=d7b35c" alt="Data systems" />
+  <img src="https://img.shields.io/badge/FULL--STACK-8b1e2d?style=flat-square&labelColor=02050b&color=8b1e2d" alt="Full-stack" />
+</p>
+
+## 📊 GitHub Stats:
+
+<p align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Hrithik028&show_icons=true&hide_border=true&bg_color=02050b&title_color=d7b35c&icon_color=3976d6&text_color=b8c6dd&ring_color=8b1e2d" alt="Hrithik's GitHub statistics" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hrithik028&layout=compact&hide_border=true&bg_color=02050b&title_color=d7b35c&text_color=b8c6dd" alt="Hrithik's most used GitHub languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hrithik028&bg_color=02050b&color=b8c6dd&line=3976d6&point=d7b35c&area=true&hide_border=true&custom_title=CAMPAIGN%20ACTIVITY%20LOG" width="98%" alt="Hrithik's GitHub contribution activity graph" />
+</p>
+
+---
+
+<p align="center">
+  <strong>THE DATA FORGE ENDURES.</strong><br />
+  <sub>Built with curiosity • tested with evidence • documented for the next traveller</sub>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:16090d,25:d7b35c,48:123e8f,100:02050b&height=110&section=footer" alt="Blue, gold, and crimson decorative footer" />
+</p>
