@@ -48,10 +48,6 @@ I’m **Hrithik**, a data-focused builder working across analytics, software, an
   <img src="./assets/github-stats.svg" width="100%" alt="Verified GitHub statistics snapshot for Hrithik028" />
 </p>
 
-> Snapshot generated from public GitHub data on **31 August 2026** and refreshed weekly by GitHub Actions. The profile and repository links above remain live.
-
----
-
 <p align="center">
   <img src="./assets/profile-footer.svg" width="100%" alt="The Data Forge endures — built with curiosity, tested with evidence, documented for the next traveller" />
 </p>
