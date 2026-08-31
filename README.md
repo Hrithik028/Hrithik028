@@ -1,5 +1,3 @@
-# HRITHIK028 // THE DATA FORGE
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:02050b,52:123e8f,82:d7b35c,100:16090d&height=180&section=header&text=THE%20DATA%20FORGE&fontColor=f4ead5&fontSize=38&fontAlignY=36&desc=Analytics%20%7C%20Engineering%20%7C%20Practical%20Systems&descAlignY=58&descSize=16" alt="The Data Forge banner" />
 </p>
