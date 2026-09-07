@@ -5,7 +5,6 @@ from __future__ import annotations
 
 import json
 import os
-import re
 import urllib.request
 from collections import Counter
 from datetime import datetime, timezone
@@ -17,7 +16,6 @@ USERNAME = os.environ.get("PROFILE_USERNAME", "Hrithik028")
 TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
 ROOT = Path(__file__).resolve().parents[1]
 SVG_PATH = ROOT / "assets" / "github-stats.svg"
-README_PATH = ROOT / "README.md"
 
 
 def request_json(url: str, *, payload: dict | None = None) -> dict | list:
@@ -139,28 +137,13 @@ def render_svg(stats: dict, languages: list[tuple[str, int]], stamp: str) -> str
 '''
 
 
-def update_readme(display_date: str) -> None:
-    content = README_PATH.read_text(encoding="utf-8")
-    updated, replacements = re.subn(
-        r"(> Snapshot generated from public GitHub data on \*\*)[^*]+(\*\*)",
-        rf"\g<1>{display_date}\g<2>",
-        content,
-        count=1,
-    )
-    if replacements != 1:
-        raise RuntimeError("README snapshot date marker was not found exactly once")
-    README_PATH.write_text(updated, encoding="utf-8", newline="\n")
-
-
 def main() -> None:
     if not TOKEN:
         raise RuntimeError("GITHUB_TOKEN or GH_TOKEN is required")
     stats, languages = fetch_stats()
     now = datetime.now(timezone.utc)
     svg_stamp = now.strftime("%d %b %Y").upper()
-    display_date = f"{now.day} {now.strftime('%B %Y')}"
     SVG_PATH.write_text(render_svg(stats, languages, svg_stamp), encoding="utf-8", newline="\n")
-    update_readme(display_date)
     print(
         f"Updated {SVG_PATH.relative_to(ROOT)}: "
         f"{stats['public_repos']} repos, {stats['contributions']} contributions, "
