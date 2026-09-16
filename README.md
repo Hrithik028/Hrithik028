@@ -51,3 +51,31 @@ I’m **Hrithik**, a data-focused builder working across analytics, software, an
 <p align="center">
   <img src="./assets/profile-footer.svg" width="100%" alt="The Data Forge endures — built with curiosity, tested with evidence, documented for the next traveller" />
 </p>
+
+<details>
+<summary><strong>How the GitHub telemetry panel is maintained</strong></summary>
+
+```mermaid
+flowchart LR
+    T["Sunday schedule or<br/>manual workflow run"] --> A["GitHub Actions"]
+    A --> P["scripts/update_profile_stats.py"]
+    API["GitHub REST and<br/>GraphQL APIs"] --> P
+    P --> SVG["assets/github-stats.svg"]
+    SVG --> R["profile README"]
+```
+
+The workflow in `.github/workflows/update-profile-stats.yml` is scheduled for `21:17 UTC` each Sunday and also supports manual dispatch. It runs the standard-library Python script with GitHub's repository token, then commits only `assets/github-stats.svg` when that file changes.
+
+Run the generator locally with Python 3:
+
+```powershell
+$env:GITHUB_TOKEN = "your_token"
+python scripts/update_profile_stats.py
+Remove-Item Env:GITHUB_TOKEN
+```
+
+`GH_TOKEN` is accepted as an alternative, and `PROFILE_USERNAME` can override the default `Hrithik028` account. Keep credentials in environment variables; never write a token into the repository.
+
+The panel reports a point-in-time count of public repositories, contributions in GitHub's current contribution window, followers, following, and the four most common primary languages among up to 100 owner repositories. Counts can become stale between runs, and API availability, permissions, rate limits, workflow settings, or branch protection can prevent an update. The workflow configuration was reviewed locally; no claim is made here about its latest remote run.
+
+</details>
