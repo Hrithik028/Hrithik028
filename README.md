@@ -36,7 +36,7 @@ I’m **Hrithik**, a data-focused builder working across analytics, software, an
 
 <p align="center">
   <a href="https://github.com/Hrithik028"><img src="https://img.shields.io/badge/GitHub-Hrithik028-07152d?style=for-the-badge&logo=github&logoColor=d7b35c&labelColor=02050b" alt="Hrithik028 on GitHub" /></a>
-  <a href="https://www.linkedin.com/in/hrithik-jadhav-a08068199/"><img src="https://img.shields.io/badge/LinkedIn-Connect-123e8f?style=for-the-badge&logo=linkedin&logoColor=f4ead5&labelColor=02050b" alt="Connect with Hrithik on LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/hrithik-jadhav/"><img src="https://img.shields.io/badge/LinkedIn-Connect-123e8f?style=for-the-badge&logo=linkedin&logoColor=f4ead5&labelColor=02050b" alt="Connect with Hrithik on LinkedIn" /></a>
   <a href="mailto:hrithik.jadhav028@gmail.com"><img src="https://img.shields.io/badge/Email-Transmit-8b1e2d?style=for-the-badge&logo=gmail&logoColor=f4ead5&labelColor=02050b" alt="Email Hrithik" /></a>
 </p>
 
